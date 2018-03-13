@@ -4,6 +4,12 @@
   - A00212740
   - Parcial 1 sistemas distribuidos
 
+
+Diagrama de despliegue
+
+![][7]
+
+
 2. Para el balaceador de cargas se utilizo nginx y se debieron automatizar 2 tareas, primero su instalacion para lo cual se creo una receta que se encargo de modificar los permisos de ejecución, otorgandoselos a vagrant. Posteriormente se habilita nginx con el comando enable y segundo una receta para la configuracion de nginx que se encarga de sobreescribir el archivo de configuración por defecto y define las variables que corresponden a las direcciones ip de los servidores web que se van a balancear
 comandos usados:
 ~~~
@@ -55,3 +61,4 @@ https://media.giphy.com/media/1AIgrCnWHEG5NAds2I/giphy.gif
 [4]:images/4.png
 [5]:images/5.png
 [6]:images/6.png
+[7]:images/7.png
