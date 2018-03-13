@@ -1,7 +1,8 @@
-- Universidad Icesi
-- Christian David Cárdenas
-- A00212740
-- Parcial 1 sistemas distribuidos
+1.  
+  -  Universidad Icesi
+  - Christian David Cárdenas
+  - A00212740
+  - Parcial 1 sistemas distribuidos
 
 2. Para el balaceador de cargas se utilizo nginx y se debieron automatizar 2 tareas, primero su instalacion para lo cual se creo una receta que se encargo de modificar los permisos de ejecución, otorgandoselos a vagrant. Posteriormente se habilita nginx con el comando enable y segundo una receta para la configuracion de nginx que se encarga de sobreescribir el archivo de configuración por defecto y define las variables que corresponden a las direcciones ip de los servidores web que se van a balancear
 comandos usados:
@@ -35,9 +36,13 @@ Para aprovisionar los dos servidores web se creo una receta para httpd (Apache s
 - servidor 2
 ![][5]
 
+
+
 7. Uno de los problemas encontrados en el despligue de el multiambiente fue que debido a que desde el archivo Vagrant se enviaban las variables directamente para las direcciones ip de los servidores cuando se intentaba aprovisionar todo con el comando "vagrant up" ocurrian errores en el despliegue de los dos servidores web. Sin embargo, esto se pudo solucionar haciendo el aprovisionamiento por pasos. Es decir, maquina a maquina.
 
-![](https://media.giphy.com/media/1AIgrCnWHEG5NAds2I/giphy.gif)
+Funcionamiento(gif pesado ~90mbs demora cargando)
+
+https://media.giphy.com/media/1AIgrCnWHEG5NAds2I/giphy.gif
 
 
 
