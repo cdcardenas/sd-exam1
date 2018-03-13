@@ -25,6 +25,7 @@ En los archivos de configuracion de nginx se modifico el puerto de escucha a pue
 Para aprovisionar los dos servidores web se creo una receta para httpd (Apache server), que se encarga de mostrar el nombre del servidor y su direccion ip.
 
 ![][2]
+![][6]
 
 3. Archivo Vagrantfile
 - Balanceador de carga
@@ -49,7 +50,8 @@ https://media.giphy.com/media/1AIgrCnWHEG5NAds2I/giphy.gif
 
 
 [1]:images/1.png
-[2]:images/2.png
+[2]:images/IMG-20180313-WA0018.jpg
 [3]:images/3.png
 [4]:images/4.png
 [5]:images/5.png
+[6]:images/IMG-20180313-WA0019.jpg
