@@ -50,9 +50,13 @@ Para aprovisionar los dos servidores web se creo una receta para httpd (Apache s
 4.Los cookbooks fueron 2: El primero para el balanceador de carga y el segundo es para los servidores web. Se anexan los cookbooks a la entrega.
 
 
-7. Uno de los problemas encontrados en el despligue de el multiambiente fue que debido a que desde el archivo Vagrant se enviaban las variables directamente para las direcciones ip de los servidores cuando se intentaba aprovisionar todo con el comando "vagrant up" ocurrian errores en el despliegue de los dos servidores web. Sin embargo, esto se pudo solucionar haciendo el aprovisionamiento por pasos. Es decir, maquina a maquina.
 
-Funcionamiento(gif pesado ~90mbs demora cargando)
+
+7.Uno de los problemas encontrados en el despligue de el multiambiente fue que debido a que desde el archivo Vagrant se enviaban las variables directamente para las direcciones ip de los servidores cuando se intentaba aprovisionar todo con el comando "vagrant up" ocurrian errores en el despliegue de los dos servidores web. Sin embargo, esto se pudo solucionar haciendo el aprovisionamiento por pasos. Es decir, maquina a maquina.
+
+
+
+8.Funcionamiento(gif pesado ~90mbs demora cargando)
 
 https://media.giphy.com/media/1AIgrCnWHEG5NAds2I/giphy.gif
 
