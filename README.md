@@ -3,7 +3,7 @@
   - **Christian David Cárdenas**
   - **A00212740**
   - **Parcial 1 sistemas distribuidos**
-  - **URL Repositorio:**
+  - **URL Repositorio:** https://github.com/cdcardenas/sd-exam1
 
 Diagrama de despliegue
 
